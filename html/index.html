@@ -1,1 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- The line commented below is online font awesome uncomment it if you wish to use it and make sure to comment the offline version -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="../font-awesome/all.css">
+    <link rel="stylesheet" href="../scss/design.css">
+    <!-- <link rel="stylesheet" href="../scss/cart.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Shopists</title>
+</head>
+<body>
 
+    <div class="navbar-container">
+        <nav class="navbar"> 
+            <div class="sidenav-toggler bars">
+                <div id="bar"></div>
+                <div id="bar"></div>
+                <div id="bar"></div>
+            </div>         
+                <!-- logo -->
+            <ul>
+                <li><a href="index.html" id="logo">Shopists</a></li>
+            </ul>
+
+            <!-- offers -->
+            <ul id="offers"> 
+                <li> <a href="#special-offers"><i class='fa-solid fa-gift'></i> <p>Offers</p></a></li>
+            </ul>
+
+                <!-- search -->
+            <ul id="search">
+                <li id="search-items"><input type="search" name="input-search" id="input-search" placeholder="Search Shopists">
+                    <i class="fa-solid fa-search" id="search-wide-screen"></i>
+                    <!-- search for mobile -->
+                    <i class="bx bx-search" id="search-mobile"></i>
+                    
+            </li>
+            </ul>
+
+
+            <!-- nav menu -->
+            <ul id="nav-menu">
+                <li>
+                    <span  id="toggle-dropdown"><i class='fa-solid fa-user'></i> <p>Account</p></span>
+                <ul class ="nav-dropdown">
+                        <a href="#">Login</a>
+
+                        <a href="#">Register</a>
+                </ul>
+                </li>
+                <li id="shopping-cart"><a href="cart.html"><i class='fa-solid fa-cart-shopping'></i> <p>Cart</p>
+                <div class="cart-items-no" id="cart-items-no">0</div>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <div>.cart</div>
+        <input type="search" class="searchbox-mobiles" placeholder="search items"/>
+
+        <div class="fixed-sidenav-container">
+        <section class="fixed-sidenav">
+            <div id="items-top-sidenav">
+                <a href="#">Track Orders</a>
+                <a href="#">Live chat</a>
+                <a href="#"> Saved Items</a>
+                <a href="#">Shipping centers</a>
+            </div>
+            <!--
+                if you wish to add other links uncomment this.
+                <div>
+                <a href="">Lorem, ipsum dolor.</a>
+            </div>
+            <div>
+                <a href="">Lorem, ipsum dolor.</a>
+            </div>
+            <div>
+                <a href="">Lorem, ipsum dolor.</a>
+            </div> -->
+            <div id="category-header">
+                <i class="fa fa-boxes"></i>
+                <h4>Categories</h4>
+            </div>
+           
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-tshirt"></i><h5 class ="cat-dropdown-toggler">Fashion</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Mens cloth</a> </li>
+                    <li class = "cat-dropdown-link"><a href="#">Women's cloth</a> </li>
+                    <li class = "cat-dropdown-link"><a href="#">Children's cloth</a> </li>
+                    <li class = "cat-dropdown-link"><a href="#">Uniforms</a> </li>
+                    <li class = "cat-dropdown-link"><a href="#">Clergy dresses</a> </li>
+                    <li class = "cat-dropdown-link"><a href="#">Shoes</a> </li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-laptop"></i><h5 class ="cat-dropdown-toggler">Computing</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Laptop</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Desktop</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Palmtops</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Calculators</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Other devices</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-phone"></i><h5 class ="cat-dropdown-toggler">Phones & Tablets</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Samsung</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Iphone</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Huawei</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Nokia</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-gamepad"></i><h5 class ="cat-dropdown-toggler">Gaming</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">PES 5</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">PES 4</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">PES 3</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Xbox</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-football-ball"></i><h5 class ="cat-dropdown-toggler">Sporting goods</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Racing Shoes</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Jerseys</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Energy drinks</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Stockings and others</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-female"></i><h5 class ="cat-dropdown-toggler">Health and Beauty</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Hair foods</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Powders</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Foods</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Drinks</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-car-crash"></i><h5 class ="cat-dropdown-toggler">Electronics</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Televisions</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">satellite dishes</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Fridges</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Music Players</a></li>
+                </ul>
+            </div>
+            <div class="each-sidenav-item"><div class="sidenav-headers">
+                <i class = "fa fa-dice-three"></i><h5 class ="cat-dropdown-toggler">Others</h5>
+            </div> 
+                <ul class="cat-dropdown">
+                    <li class = "cat-dropdown-link"><a href="#">Other Fashion Items</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Other Electronics Items</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Other Computing Items</a></li>
+                    <li class = "cat-dropdown-link"><a href="#">Other Sporting goods</a></li>
+                </ul>
+            </div>
+            <div id="login-signup">
+                <div class="login"><a href="#">Login</a></div>
+                <div class="signup"><a href="#">Signup</a></div>
+            </div>
+        </section> 
+        </div>
+
+        <main id="main">
+            <section class="main-web-content" id="items-store">
+                <div class="row1">
+                    <div class="row1-left" id="row1-left-products">
+                    </div>
+                    <div class="row1-right-container">
+                        <div class="row1-right-header">
+                            <h4>Today's deals</h4>
+                        </div>
+                        <div class="row1-right-products" id="row1-right-products" >
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <div class="row2">
+<!-- phones and tablets -->
+                    <div class="scroller-header">
+                        <h5>Shop Items </h5>
+                        <a href="#" class = "see-all">See all</a>
+                    </div>
+                    <div class="scroller snap-scroll" id="row2-products">
+                        
+                    </div>
+                </div>
+<!-- special offers -->
+                <div class="row3" id="special-offers">
+                    <div class="special-offer-header">
+                        <h4>Special Offers</h4>
+                        <a href="#" class="see-all">See all</a>
+                    </div>
+                    <div class="special-offers" id="row3-products">
+                    </div>
+                </div>
+                <div class="row4"></div>
+            </section>
+        </main>
+
+<!-- footer  -->
+
+        <div class="footer-container">
+            <footer>
+                <section>
+                    <h3>Customer Service</h3>
+                    <div><a href="">Live chat</a></div>
+                    <div><a href="">faq</a></div>
+                    <div><a href="">Sell on Shopists</a></div>
+                    <div><a href="#">pricing</a></div>
+                    <div><a href="#">Report a product</a></div>
+                    <div><a href="#">How to shop</a></div>
+                </section>
+
+                <section>
+                    <h3>Know us</h3>
+                    <div><a href="">What we sell</a></div>
+                    <div><a href="">How we evolved</a></div>
+                    <div><a href="">Our offers</a></div>
+                    <div><a href="#">Our goals</a></div>
+                </section>
+
+                <section id="contact-us">
+                    <h3>Contact us</h3>
+                    <div><span>hotline:</span>+11409878</span></div>
+                    <div><span>Address:</span> 75 Ralewan street, Lagos state, Nigeria</div>
+
+                    <div><span>Whatsapp:</span> +11408986788</div>
+                </section>
+            </footer>
+            <section id="company">
+                <h3>Shopists</h3>
+                <div><a href="#">About the company</a>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam mollitia rerum exercitationem facere! Magni provident perspiciatis perferendis. Dicta quidem iusto nobis earum nisi eaque ea, eos adipisci tempora sunt cupiditate rem minima nemo unde commodi, omnis consequatur quod accusantium ipsam nesciunt inventore est! Quia perspiciatis molestiae, esse exercitationem nesciunt ipsum?
+                </p>
+                </div>
+            </section>
+            <div class="socials">
+                <section id="copyright">
+                    <p> &copy; 2022</p>
+                </section>
+
+                <section id="social-icons">
+                    <a href=""><i class='bx bxl-twitter' ></i></a>
+                    <a href=""><i class='bx bxl-facebook' ></i></a>
+                    <a href=""><i class='bx bxl-whatsapp' ></i></a>
+                    <a href=""><i class='bx bxl-instagram' ></i></a>
+                </section>
+            </div>
+        </div>
+<script src="../font-awesome/all.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/shopItems.js"></script>
+<script src="../js/cartApp.js"></script>
+</body>
+</html>
