@@ -25,8 +25,6 @@ Please Note: Included in this project a sidenav and a footer, which are not real
 I am convinced you will enjoying using or exploring this project. 
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/110282999/195982901-070f2b27-1f9e-407e-a007-6006c02b0b2d.png)
-
-![Screenshot (39)](https://user-images.githubusercontent.com/110282999/195983090-784b7b38-b4b2-47ce-bf6d-b9550c9636ea.png)
 ![Screenshot (40)](https://user-images.githubusercontent.com/110282999/195983091-750a4ec9-b980-471e-998a-2599f9c3a132.png)
 ![Screenshot (41)](https://user-images.githubusercontent.com/110282999/195983094-90ac667d-7479-4274-a21c-161aa37f6886.png)
 ![Screenshot (42)](https://user-images.githubusercontent.com/110282999/195983095-1e81d41d-48f1-4aeb-b649-96cf25d18e62.png)
