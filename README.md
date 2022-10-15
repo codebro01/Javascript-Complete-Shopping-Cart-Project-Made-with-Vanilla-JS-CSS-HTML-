@@ -22,7 +22,11 @@ Below is the breakdown of the functions of this project into list
 10. User or a customer can decide to clear cart with the cart button. 
 
 Please Note: Included in this project a sidenav and a footer, which are not really part of the project, it was just added to ease stress for anyone who hastily needs a project they can work with without writing Lall of those from scratch.  
+I have also included the zip file if you intend to download this project into your computer easily.
 I am convinced you will enjoying using or exploring this project. 
+
+  DISCLAIMER: PLEASE NOTE ALL THE IMAGES USED IN THIS PROJECT ARE NOT MINE, SOME OF THEM ARE DOWMLOADED FROM PIXABAY WEBSITE.  
+
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/110282999/195982901-070f2b27-1f9e-407e-a007-6006c02b0b2d.png)
 ![Screenshot (40)](https://user-images.githubusercontent.com/110282999/195983091-750a4ec9-b980-471e-998a-2599f9c3a132.png)
