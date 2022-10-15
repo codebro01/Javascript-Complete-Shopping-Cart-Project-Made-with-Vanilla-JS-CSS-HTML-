@@ -23,3 +23,16 @@ Below is the breakdown of the functions of this project into list
 
 Please Note: Included in this project a sidenav and a footer, which are not really part of the project, it was just added to ease stress for anyone who hastily needs a project they can work with without writing Lall of those from scratch.  
 I am convinced you will enjoying using or exploring this project. 
+
+![Screenshot (36)](https://user-images.githubusercontent.com/110282999/195982901-070f2b27-1f9e-407e-a007-6006c02b0b2d.png)
+
+![Screenshot (39)](https://user-images.githubusercontent.com/110282999/195983090-784b7b38-b4b2-47ce-bf6d-b9550c9636ea.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/110282999/195983091-750a4ec9-b980-471e-998a-2599f9c3a132.png)
+![Screenshot (41)](https://user-images.githubusercontent.com/110282999/195983094-90ac667d-7479-4274-a21c-161aa37f6886.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/110282999/195983095-1e81d41d-48f1-4aeb-b649-96cf25d18e62.png)
+![Screenshot (43)](https://user-images.githubusercontent.com/110282999/195983100-436161c4-8a5e-4ef5-84a9-426a83385f4b.png)
+![Screenshot (44)](https://user-images.githubusercontent.com/110282999/195983102-d67e6ed8-ce31-4919-ae9b-96741cda5edb.png)
+![Screenshot (37)](https://user-images.githubusercontent.com/110282999/195983103-8410fc9d-82fa-4c8b-898b-3cfac47846bc.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/110282999/195983107-29bf23dd-f0d3-41b3-aa29-d8960431201a.png)
+
+
